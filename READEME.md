@@ -1,4 +1,5 @@
 ﻿### Challenge 1: Revenue Calculation Refactor
+The whole solution is built following best practices of the Clean Code architecture and SOLID Principles
 
 ## Refactoring Overview: Revenue Calculation
 
