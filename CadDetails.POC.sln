@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4DDE8446-3676-4FD9-819B-DC048EC9FE72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{755AA687-1216-4489-80C5-E15BB9258D58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{98A80AF4-77D9-4FCB-A4CC-B29DE64C2A39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3A6DF1EA-E523-417D-BAEC-AC934DB840DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5AE1DDBB-9BC4-4EF3-A111-A0F620E00ED2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{86B43DC2-5978-48CA-8DE5-F6C66ACF9EA9}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet-ci.yml = .github\workflows\dotnet-ci.yml
+		READEME.md = READEME.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadDetails.POC.Domain", "src\Domain\CadDetails.POC.Domain\CadDetails.POC.Domain.csproj", "{51ED5BA2-043C-45F1-BFE7-46635CD3EEE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadDetails.POC.Test", "src\Tests\CadDetails.POC.Test\CadDetails.POC.Test.csproj", "{05148B40-94DB-4CB7-B084-43B7649694FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51ED5BA2-043C-45F1-BFE7-46635CD3EEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51ED5BA2-043C-45F1-BFE7-46635CD3EEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51ED5BA2-043C-45F1-BFE7-46635CD3EEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51ED5BA2-043C-45F1-BFE7-46635CD3EEE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05148B40-94DB-4CB7-B084-43B7649694FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05148B40-94DB-4CB7-B084-43B7649694FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05148B40-94DB-4CB7-B084-43B7649694FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05148B40-94DB-4CB7-B084-43B7649694FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DDE8446-3676-4FD9-819B-DC048EC9FE72} = {755AA687-1216-4489-80C5-E15BB9258D58}
+		{98A80AF4-77D9-4FCB-A4CC-B29DE64C2A39} = {755AA687-1216-4489-80C5-E15BB9258D58}
+		{3A6DF1EA-E523-417D-BAEC-AC934DB840DB} = {755AA687-1216-4489-80C5-E15BB9258D58}
+		{5AE1DDBB-9BC4-4EF3-A111-A0F620E00ED2} = {755AA687-1216-4489-80C5-E15BB9258D58}
+		{51ED5BA2-043C-45F1-BFE7-46635CD3EEE5} = {98A80AF4-77D9-4FCB-A4CC-B29DE64C2A39}
+		{05148B40-94DB-4CB7-B084-43B7649694FD} = {4DDE8446-3676-4FD9-819B-DC048EC9FE72}
+	EndGlobalSection
+EndGlobal
